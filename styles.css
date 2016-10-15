@@ -1,0 +1,46 @@
+body {
+  background: grey;
+}
+body, #btn-tweet, #btn-quote {
+  font-family: 'Indie Flower', cursive;
+}
+#container {
+  width: 562px;
+  height: 316px;
+  margin: 20px auto;
+  padding: 50px;
+  background: url('https://i.ytimg.com/vi/w7ma8mweDGw/maxresdefault.jpg');
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+}
+#quote {
+  position: absolute;
+  left: 145px;
+  top: 40px;
+  font-size: 40px;
+  line-height: 32px;
+  padding-right: 10px;
+}
+#author {
+  position: absolute;
+  bottom: 58px;
+  right: 50px;
+  font-size: 40px;
+  font-style: italic;
+}
+#btn-tweet {
+  position: absolute;
+  bottom: 53px;
+  left: 150px;
+  font-size: 15px;
+}
+#btn-quote {
+  position: absolute;
+  bottom: 53px;
+  right: 40px;
+  font-size: 15px;
+}
+
